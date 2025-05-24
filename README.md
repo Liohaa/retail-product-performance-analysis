@@ -1,7 +1,7 @@
 # Retail Product Performance Analysis
 A data analysis project using Python and SQL that analyzes retail sales data to identify top- and underperforming products, calculate profits and losses, and compare sales with and without discounts.
 
-## 🎯 Goals
+## Goals
 
 This project helps to better understand key aspects of retail product performance, such as:
 

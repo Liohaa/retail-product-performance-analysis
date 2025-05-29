@@ -12,7 +12,7 @@ This folder contains SQL queries to analyze product-level performance by **categ
 
 ## Queries in this Folder
 
-### 1. Product Analisys by Category and Year
+### 1. Product Analysis by Category and Year
 
 **Calculates:**
 

@@ -1,4 +1,4 @@
-# Block 1: Sales and Demand
+# Block 1: Sales and Demand Analisys
 
 This folder contains SQL queries to analyze sales data by **product category**, **year**, and **month**.
 

@@ -1,4 +1,4 @@
-# Block 2: Profit and Loss Analisys
+# Block 2: Profit and Loss Analysis
 
 This folder contains SQL queries to analyze financial metrics by **product category**, **year**, and **month**.
 

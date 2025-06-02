@@ -6,7 +6,7 @@ Also includes creation of a materialized view with cost price intervals,
 a table with daily cost prices per product
 */
 -- 1. Create a materialized view with date intervals and cost price for each item
-CREATE MATERIALIZED VIEW cost_price_intervals AS
+CREATE MATERIALIZED VIEW IF NOT EXISTS cost_price_intervals AS
 	SELECT
 		item_id,
 		cost_price,
@@ -14,7 +14,7 @@ CREATE MATERIALIZED VIEW cost_price_intervals AS
 		LEAD(date) OVER (PARTITION BY item_id ORDER BY date) AS end_date
 	FROM cost_prices;
 -- 2. Create a table with daily cost prices for each item
-CREATE TABLE cost_price_by_day AS
+CREATE TABLE IF NOT EXISTS cost_price_by_day AS
 	SELECT
 		item_id,
 		cost_price,

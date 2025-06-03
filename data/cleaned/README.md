@@ -7,7 +7,7 @@ This folder contains cleaned datasets that were used in the analysis and visuali
 The original data comes from the public Kaggle dataset:
 
 **Supermarket Sales Data**  
-[https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset](https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset)
+[https://www.kaggle.com/datasets/yapwh1208/supermarket-sales-data](https://www.kaggle.com/datasets/yapwh1208/supermarket-sales-data)
 
 All data is synthetic and provided for educational use only.
 

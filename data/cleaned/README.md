@@ -13,25 +13,26 @@ All data is synthetic and provided for educational use only.
 
 ### Cleaning Process
 
-The raw data was cleaned and transformed using Python (Pandas). The cleaning steps included:
+The data cleaning process was done in the notebook  
+`01_data_cleaning/data_preprocessing.ipynb`.
 
-- Removing duplicates  
-- Handling missing values  
-- Renaming columns for clarity  
-- Converting data types (e.g. dates, numbers)  
+Steps included:
 
-### 📁 Files Included
+- Checking for and confirming the absence of duplicates and missing values
+- Renaming columns for clarity
+- Converting data types (e.g. dates, numeric values)
 
-- `clean_sales.csv`: Cleaned sales transactions  
-- `clean_products.csv`: Product reference table  
-- `clean_returns.csv`: Data on returned products  
-- `clean_discounts.csv`: Information on discounts  
-- `clean_categories.csv`: Category mappings  
+### Files Included
 
-### 🔧 Tools Used
+- `cleaned_sales.rar`: Cleaned sales data  
+- `cleaned_products.csv`: Cleaned product info  
+- `cleaned_cost_prices.csv`: Cost price data  
+- `cleaned_loss_rates.csv`: Loss rate data  
+
+### Tools Used
 
 - Python  
 - Pandas  
 - Jupyter Notebook
 
-These cleaned files are the foundation for the analysis and visualizations in the project.
+These files were used as input for SQL queries and visualizations later in the project.

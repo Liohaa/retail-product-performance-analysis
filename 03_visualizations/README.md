@@ -23,6 +23,7 @@ This Jupyter Notebook includes visualizations related to:
 - Matplotlib
 - Seaborn
 - SQLAlchemy (for SQL queries)
+- Jupyter Notebook
 
 ### Goals
 

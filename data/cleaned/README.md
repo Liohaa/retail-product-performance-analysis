@@ -25,9 +25,9 @@ Steps included:
 ### Files Included
 
 - `cleaned_sales.rar`: Cleaned sales data  
-- `cleaned_products.csv`: Cleaned product info  
-- `cleaned_cost_prices.csv`: Cost price data  
-- `cleaned_loss_rates.csv`: Loss rate data  
+- `cleaned_products.csv`: Cleaned product data 
+- `cleaned_cost_prices.csv`: Cleaned cost price data  
+- `cleaned_loss_rates.csv`: Cleaned loss rate data  
 
 ### Tools Used
 

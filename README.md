@@ -35,7 +35,7 @@ Raw data includes four CSV files:
 - `sales.csv`: Sales data with dates, quantities and prices  
 - `cost_prices.csv`: Wholesale prices of products over time  
 - `loss_rates.csv`: Records of product losses
-- 
+
 **Source:** Data was taken from [Supermarket Sales Data](https://www.kaggle.com/datasets/yapwh1208/supermarket-sales-data)
 
 Cleaned versions of these files are saved in data/cleaned/ after preprocessing.

@@ -3,7 +3,7 @@ Analyzes discount impact by month, including:
 Percentage of sales with discount, % impact of discount on average quantity sold per order,
 % impact of discount on average revenue per order, % impact of discount on average profit per order,
 difference in margin % between discounted and non-discounted sales,
-ROI of discounts (%)
+ROI of discounts (%) based on relative change in profit, not actual discount cost
 Using the materialized view and the daily cost price table created in the 02_01 query.
 */
 SELECT 
@@ -40,7 +40,7 @@ SELECT
         FILTER (WHERE s.discount = 'No') * 100.0 /
         NULLIF(SUM(s.quantity * s.unit_price) 
         FILTER (WHERE s.discount = 'No'), 0)),2)::text || '%' AS margin_diff,
--- ROI of discounts (%)
+-- ROI of discounts (%) based on relative change in profit, not actual discount cost
 	 ROUND(
         	(SUM((s.unit_price - cpd.cost_price) * s.quantity) 
             FILTER (WHERE s.discount = 'Yes')

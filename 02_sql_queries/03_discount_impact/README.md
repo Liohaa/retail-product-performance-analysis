@@ -5,7 +5,7 @@ This folder contains SQL queries to analyze the effect of discounts on sales by 
 ## Important Notes on Data
 
 - These queries evaluate how discounts affect quantity sold, revenue, profit, and margins.
-- ROI (Return on Investment) of discounts is calculated to measure discount effectiveness.
+- ROI (Return on Investment) of discounts is calculated to measure discount effectiveness (based on relative change in profit, not actual discount cost)
 - Calculations use the materialized view and daily cost price table created in the profit and loss analisys queries.
 
 ---

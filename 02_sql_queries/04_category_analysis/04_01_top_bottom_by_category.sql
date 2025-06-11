@@ -36,5 +36,5 @@ WHERE top_rank <=3
 OR bottom_rank <=3
 ORDER BY 
 	year DESC, category,
-	CASE WHEN top_rank <= 3 THEN top_rank ELSE bottom_rank + 300 -- чтобы топы шли первыми
+	CASE WHEN top_rank <= 3 THEN top_rank ELSE bottom_rank + 300
 	END;
